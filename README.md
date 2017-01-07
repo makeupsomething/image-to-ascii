@@ -22,6 +22,15 @@ To see the list of arguments run
 
 `python converter_cli.py -h`
 
+## Future work
+
+- More character options, multiple different ASCII characters representing different shades
+- Save to file option
+- A GUI version
+
+
+## Some images generated with this tool
+
 ```
                                                                                                                         
    *                 *           *              *            *         *   *******        *                *            
