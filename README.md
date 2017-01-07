@@ -12,7 +12,7 @@ http://begins.readthedocs.io/en/latest/index.html
 ## Usage
 
 For a simple image conversion run the following
-`python converter_cli.py --image-file-path /Users/daryl/Documents/isaax-image-convert/images/image2.jpg`
+`python converter_cli.py --image-file-path sample_images/isaax.jpg`
 
 
 To see the list of arguments run
