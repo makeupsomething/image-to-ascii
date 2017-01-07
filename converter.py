@@ -35,7 +35,7 @@ def import_image(image_filepath):
         print "Unable to open image file {image_filepath}.".format(image_filepath=image_filepath)
     return image
 
-def do_convert(image, new_width, lod, inverted, custom_char, save_as):
+def do_convert(image, new_width, lod, inverted, custom_char):
     scaled_image = do_scale(image, new_width)
     grayscale_image = convert_to_grayscale(scaled_image)
     charArray = charDict.get_char_array(inverted, custom_char)
