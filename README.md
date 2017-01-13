@@ -3,7 +3,7 @@ A small python tool that converts images to ascii art
 
 ##Dependencies
 
-Pillow - for image processing
+Pillow - the friendly PIL
 
 https://python-pillow.org/
 
