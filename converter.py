@@ -26,6 +26,7 @@ def generate_final_image(char_image, new_width):
     for index in xrange(0, len(char_image), new_width):
         final_image.append(char_image[index: index + new_width])
     return "\n".join(final_image)
+    #return "<br>".join(final_image)
 
 def import_image(image_filepath):
     image = None
